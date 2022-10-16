@@ -33,34 +33,34 @@ nav {
         <header>
             <!--Navigation Bar-->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#"><h6><b>TIMETABLE GENERATOR</b></h6></a>
+                <a class="navbar-brand" href="#"><h5><b>TIMETABLE GENERATOR</b></h5></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                      <li class="nav-item" style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'admindash' %}">Get Started</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'addInstructors' %}">Add Teachers</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'addRooms' %}">Add Rooms</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
 		                <a class="nav-link" href="{% url 'addTimings' %}">Add Timings</a>
 		            </li>
-                    <li class="nav-item">
+                    <li class="nav-item " style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'addCourses' %}">Add Courses</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
 			            <a class="nav-link" href="{% url 'addDepts' %}">Add Departments</a>
 		            </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
 			            <a class="nav-link" href="{% url 'addSections' %}">Add Sections</a>
 		            </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
 			            <a class="nav-link" href="{% url 'generate' %}">Generate Timetable</a>
 		            </li>
                     <li class="nav-item active">
@@ -83,7 +83,7 @@ nav {
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-4">Hello {{ user.first_name }}!</h1>
-      <p>Welcome, a timetable management system for colleges and universities to schedule their organization's timetable. TTGS started off as a company that formed strong relationships with schools, colleges and universities to help them generate their timetable with
+      <p>Welcome, a timetable management system for colleges and universities to schedule their organization's timetable. Time table generation system will help schools, colleges and universities to generate their timetable with
          ease and maximum efficiency thus saving the organization's valuable time. Get started by referring to the flow of the system below or Contact Us with any queries or difficulties.
       </p>
       

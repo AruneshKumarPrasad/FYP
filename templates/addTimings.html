@@ -66,10 +66,12 @@ form {
 
 form fieldset{
 	padding: 40px;
-	border-width: 20px;
+	border-width: 1px;
 	border-style: groove;
     border-color: #5a5a5a;
 	background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 3px 2px black;
 }
 
 fieldset h1 {
@@ -91,7 +93,8 @@ fieldset label {
 }
 fieldset input{
 	padding:8px;
-	color: #938c8c
+	color: #938c8c;
+    border-radius:10px;
 }
 fieldset input:focus{
 	color: #000;
@@ -154,20 +157,21 @@ fieldset button
 }
 
 .submit{
-	margin-left: 60px;
-	color: #fff;
-	background-color: #5a5a5a;
-	border-radius: 3px;
-	padding: 13px 39px;
-	text-align: center;
-	letter-spacing: 0.9px;
-	text-decoration: none;
-	margin-right: 10px;
-	line-height: 26px;
-	font-size: 16px;
-	box-shadow: 0px 1px 3px 0px #5a5a5a;
-	right: 100px;
-	margin-top: 15px;
+  margin-left: 81px;
+  color: #fff;
+  background-color: #5a5a5a;
+  border-radius: 3px;
+  padding: 12px 30px;
+  text-align: center;
+  letter-spacing: 0.9px;
+  text-decoration: none;
+  margin-right: 10px;
+  line-height: 20px;
+  font-size: 16px;
+  box-shadow: 0px 1px 3px 0px #5a5a5a;
+  right: 100px;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
 #link_to_edit{
@@ -200,28 +204,28 @@ fieldset button
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                      <li class="nav-item" style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'admindash' %}">Get Started</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'addInstructors' %}">Add Teachers</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'addRooms' %}">Add Rooms</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item" style="font-size:15px ;">
 		                <a class="nav-link" href="{% url 'addTimings' %}">Add Timings</a>
 		            </li>
-                    <li class="nav-item">
+                    <li class="nav-item " style="font-size:15px ;">
                         <a class="nav-link" href="{% url 'addCourses' %}">Add Courses</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
 			            <a class="nav-link" href="{% url 'addDepts' %}">Add Departments</a>
 		            </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
 			            <a class="nav-link" href="{% url 'addSections' %}">Add Sections</a>
 		            </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="font-size:15px ;">
 			            <a class="nav-link" href="{% url 'generate' %}">Generate Timetable</a>
 		            </li>
                     <li class="nav-item active">
