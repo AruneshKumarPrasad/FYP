@@ -48,7 +48,7 @@ ol {
     float:left;
     color:#fff;
     font-size:22px;
-    font-color: #fff;
+    color: #fff;
     margin-right:10%;
 }
 
@@ -90,7 +90,7 @@ form {
 }
 
 form p {
-    width:100%;
+    width:50%;
     overflow:auto;
 }
 
@@ -102,12 +102,13 @@ label {
 }
 input, textarea {
     clear:both;
-    float:left;
+   
     margin:0 0 10px;
     background:#efefef;
-    border:0;
+    border:1px solid black;
     padding:6px 10px;
     font-size:14px;
+    border-radius: 10px;
 }
 input[type=submit], a.button {
     font-weight:bold;
@@ -168,9 +169,13 @@ ul.messages li a.close {
     text-shadow:none;
 }
 
+
 .login-form {
-    float:left;
+    width: 50%;
+    margin: auto;
+    display: block;
 }
+
 
 /* social-auth */
 .social {

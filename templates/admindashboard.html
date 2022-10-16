@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>TTGS | Get Started</title>
+	<title> Get Started</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -22,7 +22,7 @@ nav {
 }
 
 .navbar-brand {
-    font-size: 20px;
+    font-size: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
     </style>
@@ -33,7 +33,7 @@ nav {
         <header>
             <!--Navigation Bar-->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#"><b>TIMETABLE GENERATOR</b></a>
+                <a class="navbar-brand" href="#"><h6><b>TIMETABLE GENERATOR</b></h6></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -82,11 +82,11 @@ nav {
 
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-4">Hello {{ user.first_name }}! Lets Get Started with TTGS</h1>
-      <p>Welcome to TTGS!, a timetable management system for colleges and universities to schedule their organization's timetable. TTGS started off as a company that formed strong relationships with schools, colleges and universities to help them generate their timetable with
+      <h1 class="display-4">Hello {{ user.first_name }}!</h1>
+      <p>Welcome, a timetable management system for colleges and universities to schedule their organization's timetable. TTGS started off as a company that formed strong relationships with schools, colleges and universities to help them generate their timetable with
          ease and maximum efficiency thus saving the organization's valuable time. Get started by referring to the flow of the system below or Contact Us with any queries or difficulties.
       </p>
-      <p><a class="btn btn-primary btn-lg" href="{% url 'addInstructors' %}" role="button">Get Started &raquo;</a>&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-lg" href="{% url 'contact' %}" role="button">Contact Us &raquo;</a></p>
+      
     </div>
   </div>
 
@@ -146,7 +146,7 @@ nav {
 </main>
 
 <footer class="container">
-  <p>&copy; ttgs. All Rights Reserved</p>
+  <p>Final Year Project</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>TTGS | Timetable Generation System</title>
+	<title> Timetable Generation System</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -33,7 +33,7 @@
 </head>
 <body>
     <form id="form1">
-        <header>
+        <header> 
             <!--Navigation Bar-->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand" href="#"><b>TIMETABLE GENERATOR</b></a>
@@ -45,14 +45,6 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="{% url 'index' %}">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'about' %}">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'help' %}">Help</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
                     </li>
                     <li class="nav-item">
 		                <a class="nav-link" href="{% url 'login' %}">Login</a>
@@ -63,7 +55,7 @@
                     </ul>
                 </div>
             </nav>
-        </header>
+        </header> 
 
         <!--Image Carousel-->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -80,7 +72,7 @@
           <div class="carousel-caption text-left">
             <h1><b>Easy to Use.</b></h1>
             <p>A Simple and Easy to use Timetable Generation tool for Colleges and Universities. Click on the Help Button for Assistance in Generating the Timetable.</p>
-            <p><a class="btn btn-lg btn-primary" href="{% url 'help' %}" role="button">Help</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Help</a></p>
           </div>
         </div>
       </div>
@@ -91,7 +83,7 @@
           <div class="carousel-caption">
             <h1><b>Efficient and Reliable.</b></h1>
             <p>An efficient and a reliable tool to generate and save your Timetable with collision avoidance. Learn more about TTGS.</p>
-            <p><a class="btn btn-lg btn-primary" href="{% url 'about' %}" role="button">Learn more</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -121,15 +113,15 @@
     <div class="container-fluid">
     <div class="row jumbotron">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead">Welcome to TTGS!, a timetable management system for colleges and universities to schedule their organization's timetable.
+            <p class="lead">Welcome, a timetable management system for colleges and universities to schedule their organization's timetable.
                 If your organization faces any challenges while generating or manipulating your timetable or have any concerns regarding the system please contact us.
             </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="{% url 'contact' %}"><button type="button" class="btn btn-outline-secondary btn-lg">Contact Us</button></a>
+            <a href="{% url 'login' %}"><button type="button" class="btn btn-outline-secondary btn-lg">Login</button></a>
         </div>
     </div>
-    </div>
+    </div> 
     <!--Build with Ease and Logos section-->
     <div class="container-fluid padding">
     <div class="row welcome text-center">
@@ -163,10 +155,10 @@
         </div>
     </div>
     <hr class="my-4"/>
-    </div>
+    </div> 
 
     <!--Connect Section-->
-    <div class="container-fluid padding">
+     <div class="container-fluid padding">
     <div class="row text-center padding">
         <div class="col-12">
             <h2>Connect</h2>
@@ -179,44 +171,8 @@
             <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
-    </div>
-    <!--Footer-->
-    <footer>
-        <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <hr class="light">
-                <h5>Our Address</h5>
-                <hr class="light">
-                <p>+91 9823451278</p>
-                <p>contactus@ttgs.com</p>
-                <p>1901/B, Om Vikas</p>
-                <p>Mumbai, Mahrashtra,400006</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light" />
-                <h5>Our Hours</h5>
-                <hr class="light" />
-                <p>Monday: 9PM-5PM</p>
-                <p>Saturday:10AM-4PM</p>
-                <p>Sunday: Closed</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light">
-                <h5>Service Areas</h5>
-                <hr class="light" />
-                <p>Mumbai, Maharashtra</p>
-                <p>Ahmedabad, Gujarat</p>
-                <p>Chennai, Tamil Nadu</p>
-                <p>Bhopal, Madhya Pradesh</p>
-            </div>
-            <div class="col-12">
-                <hr class="light" />
-                <h5>&copy; ttgs.com</h5>
-            </div>
-        </div>
-        </div>
-    </footer>
+    </div> 
+
    </form>
 </body>
 </html>
